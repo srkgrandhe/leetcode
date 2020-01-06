@@ -24,7 +24,7 @@ public class TwoSum {
 		return new int[] {0,0};
 	}
 	
-	//using hashmap and storing the unmatched value in the map 
+	//using hashmap and storing the unmatched value in the map. Find the delta in map and retun the indices
 	public int[] twoSum1(int nums[], int target)
 	{
 		HashMap<Integer, Integer> hm = new HashMap<Integer,Integer>();
